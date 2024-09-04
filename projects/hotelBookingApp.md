@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/javabilde.jpg
 title: "Hotel Booking App"
 date: 2021
 published: true
