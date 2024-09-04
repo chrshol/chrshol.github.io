@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/javabilde.jpg
+image: img/hotel-booking.jpg
 title: "Hotel Booking App"
 date: 2021
 published: true
