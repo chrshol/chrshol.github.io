@@ -4,7 +4,7 @@ layout: essay
 type: essay
 title: "Technical Essay"
 # All dates must be YYYY-MM-DD format!
-date: 2015-08-26
+date: 2022-09-03
 published: true
 labels:
   - Software Engineering
