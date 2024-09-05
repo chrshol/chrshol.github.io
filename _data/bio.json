@@ -26,7 +26,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Ubuntu", "Git/GitHub" ]
     }
   ],
   "education": [
@@ -87,7 +87,7 @@
       "summary": "SVI Climbing is the climbing club of my faculty at UiB",
       "highlights": [
         "Trainer",
-        "Planning and executing social event for all members",
+        "Planning and executing social events for all members",
       ]
     }
   ],
