@@ -16,4 +16,9 @@ From the moment I began creating HTML code to design my personal pink blogs as a
 
 After a visit at Googleplex with my class in January 2024, my eyes really opened up for software engineering. Meeting a fellow Norwegian who had successfully transitioned from a small country to one of the world's largest tech companies inspired me deeply. Since then, I have seriously considered a future career as a software engineer or developer. 
 
+
+<p align="left">
+  <img src="../img/googleplex.png" width="600">
+</p>
+
   
