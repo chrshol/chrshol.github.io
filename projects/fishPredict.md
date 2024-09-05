@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/fishpred.jpg
 title: "Predicting the weight of fish in catch operations"
 date: 2024
 published: true
