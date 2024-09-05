@@ -12,12 +12,13 @@ labels:
 ---
 
 
-<p align="right">
-  <img src="../img/TS-bilde.png" width="500">
-</p>
+
 
 **A new programming language**
 In the diverse landscape of programming languages, Typescript stands out as a statically-typed superset of JavaScript that introduces additional features and syntactic enhancements. For someone like me, who has only worked with Java and Python, transitioning to TypeScript has been both a challenge and exciting experience 
+<p align="right">
+  <img src="../img/TS-bilde.png" width="400">
+</p>
 
 **Java and TypeScript**
 Typescript incorporates many object-oriented programming (OOP) features that I’m familiar with from Java, such as classes, interfaces, and inheritance. These features help structuring large codebases and maintaining clear, modular, and reusable code. This familiarity has made my transition to TypeScript a little bit easier, although I will need some time getting used to the syntax. 
