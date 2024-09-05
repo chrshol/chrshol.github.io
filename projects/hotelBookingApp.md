@@ -20,8 +20,8 @@ In this project me and my partner developed a functional app consisting of sever
 
 Here is a photo illustrating how the app looks like:
 
-<p align="center">
-  <img src="../img/hotel-booking.png" width="400">
+<p align="left">
+  <img src="../img/hotel-booking.png" width="600">
 </p>
 
 
