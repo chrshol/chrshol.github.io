@@ -11,7 +11,10 @@ labels:
   - Software Engineering
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/TS-bilde.png">
+
+<p align="right">
+  <img src="../img/TS-bilde.png" width="500">
+</p>
 
 **A new programming language**
 In the diverse landscape of programming languages, Typescript stands out as a statically-typed superset of JavaScript that introduces additional features and syntactic enhancements. For someone like me, who has only worked with Java and Python, transitioning to TypeScript has been both a challenge and exciting experience 
