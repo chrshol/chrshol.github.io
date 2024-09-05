@@ -67,15 +67,15 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Studentgroup at NCE Finance Innovation",
+      "website": "https://financeinnovation.no/",
+      "position": "Member",
+      "startDate": "2023-08-20",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Member of NCE Finance INNovations studentgroup",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Planning, executing and marketing events",
+        "Connecting students in Bergen and NCE Finance Innovation, and its cluster members"
       ]
     },
     {
