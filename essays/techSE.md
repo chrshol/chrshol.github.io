@@ -18,7 +18,7 @@ After a visit at Googleplex with my class in January 2024, my eyes really opened
 
 
 <p align="left">
-  <img src="../img/googleplex.png" width="600">
+  <img src="../img/googleplex.jpg" width="600">
 </p>
 
   
