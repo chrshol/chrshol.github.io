@@ -6,8 +6,8 @@
     "email": "cholthe@hawaii.edu",
     "phone": "808-206-5167",
     "website": "https://chrshol.github.io",
-    "summary": "I am studying for a civil engineering degree in IT & Economics at University of Bergen. I expect to graduate in Spring, 2027.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am studying for a civil engineering degree in IT & Economics at the University of Bergen, Norway. I expect to graduate in Spring, 2027.",
+    "location": { "address": "", "postalCode": "96826", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "chrshol", "url": "http://github.com/chrshol" },
       { "network": "linkedin", "username": "christinaholthe", "url": "https://www.linkedin.com/in/christina-holthe-936862273/" }
