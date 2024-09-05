@@ -19,9 +19,13 @@ summary: "My team developed multiple machine learning models to predict the weig
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+For this project I worked in a team of four. Given a tabular data set that contained information about every fishery operations in Norwegian waters, our goal was to predict the fish weight for a single catch operation. To do this we trained multiple different machine learning models, and tested which one was best. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For this project we had to start with a lot of preprocessing. The purpose of this part was to fully understand the date we were working with, visualize it and prepare it for the machine learning algorithms. After preparing the data we trained multiple different supervised models such as inear regression, random rorest regression and multilayer preception (MPL). 
+
+After this part we also used unsupervised learning by K-means clustering, which was my main responsibility for this project. K-means clustering is learning patterns and structures from input features without any explicit supervision. The goal of this part was to visualize clusters in our original high-dimensional data as well as after using PCA for dimensionality reduction.
+
+
 
 Here is some code that illustrates how we read values from the line sensors:
 
