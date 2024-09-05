@@ -1,29 +1,40 @@
 ---
 layout: project
 type: project
-image: img/hotel-booking.jpg
-title: "Hotel Booking App"
-date: 2021
+image: img/micromouse/micromouse-square.jpg
+title: "Predicting the weight of fish in catch operations"
+date: 2015
 published: true
 labels:
-  - Java
-  - FXML
-  - JUnit 5
-  - OOP
-summary: "My teammate and I developed a Hotel Booking App for our TDT4100: Object-Oriented Programming course at the Norwegian Univeristy of Science and Technology"
+  - Machine Learning
+  - Python
+  - Supervised learning
+  - Unsupervised learning
+summary: "My team developed multiple machine learning models to predict the weight of fish in a single catch operation for our INFO284 Machine Learning course at the University of Bergen."
 ---
 
-The goal of this project was to get familier with object oriented programming using Java. We worked in pairs of two and we were free to choose whater project we wanted. My teammate and I landed on making a Hotel Booking App. This project was my first team coding project, and gave me the opportunity to learn pair programming and gain experience with using Git.
+<div class="text-center p-4">
+  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+</div>
 
+Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
 
-In this project me and my partner developed a functional app consisting of several classes. We ensured that all classes encapsulate tehir state and include validation when state changes occur. The user interface was created using FXML, supported by Controller and App classes. Additionally, the app features the ability to read from and write to a file, making it useful for storing data such as a list of all bookings. Appropriate error handling was implemented throughout the app, and we created a set of JUnit tests to verify that the app's functionality works as intended
+For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-Here is a photo illustrating how the app looks like:
+Here is some code that illustrates how we read values from the line sensors:
 
-<p align="left">
-  <img src="../img/hotel-booking.png" width="600">
-</p>
+```cpp
+byte ADCRead(byte ch)
+{
+    word value;
+    ADC1SC1 = ch;
+    while (ADC1SC1_COCO != 1)
+    {   // wait until ADC conversion is completed   
+    }
+    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+}
+```
 
-
-
-You can see the whole project at my [TDT4100 repository](https://github.com/chrshol/TDT4100.git).
+You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
