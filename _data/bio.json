@@ -42,15 +42,15 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Avo Consulting",
+      "position": Intern",
+      "website": "https://www.avoconsulting.no/",
+      "startDate": "2024-01-20",
+      "endDate": "2024-05-16",
+      "summary": "Exporing Conversational AI and Large Language Models. Creating chatbots using LLM actions in Boost ai",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "CAI, LLM, Boost AI",
+        "Chatbots, creating a chatbot for internal use in a company"
       ]
     },
     {
