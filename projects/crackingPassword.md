@@ -2,7 +2,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/cybersecurity.png
 title: "Cyber Security"
 date: 2022
 published: true
@@ -29,7 +29,11 @@ _hashcat -a 3 -m 1800 weakpwd.txt ?u?1?d?d?d?d_
 
 The "-a 3" part means that the attacking mode is brute force, "-m 1800" means that the mode of the hash function is sha512crypt
 
-After a lot of running I was finally able to crack the password which can be seen in the picture below
+After a lot of running I was finally able to crack the password which can be seen in the picture below on the bottom right side:
+
+<p align="left">
+  <img src="../img/hack.png" width="600">
+</p>
 
 
 
