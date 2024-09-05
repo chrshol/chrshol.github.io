@@ -13,14 +13,14 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/TS-bilde.png">
 
-##### A new programming language
+**A new programming language**
 
 In the diverse landscape of programming languages, Typescript stands out as a statically-typed superset of JavaScript that introduces additional features and syntactic enhancements. For someone like me, who has only worked with Java and Python, transitioning to TypeScript has been both a challenge and exciting experience 
 
-##### Java and TypeScript
+**Java and TypeScript**
 Typescript incorporates many object-oriented programming (OOP) features that I’m familiar with from Java, such as classes, interfaces, and inheritance. These features help structuring large codebases and maintaining clear, modular, and reusable code. This familiarity has made my transition to TypeScript a little bit easier, although I will need some time getting used to the syntax. 
 
-##### Is Typescript good for Software Engineering?
+**Is Typescript good for Software Engineering**
 The OOP aspect of TypeScript brings me to why I think TypeScript is a very suitable programming language from a software engineering perspective. The features of OOP contributes to a more maintainable, reusable and robust code, which will be important aspects of software engineering. 
 
 ##### Athletic Software Engineering
