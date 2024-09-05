@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
 title: "Predicting the weight of fish in catch operations"
-date: 2015
+date: 2024
 published: true
 labels:
   - Machine Learning
