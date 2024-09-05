@@ -39,8 +39,4 @@ After a lot of running I was finally able to crack the password which can be see
 
 
 
-</pre>
 
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
