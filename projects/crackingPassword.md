@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/cybersecurity.jpg
-title: "Cyber Security"
+title: "Cracking Password with Brute Force"
 date: 2022
 published: true
 labels:
