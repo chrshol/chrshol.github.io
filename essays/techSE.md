@@ -20,4 +20,6 @@ After a visit at Googleplex with my class in January 2024, my eyes really opened
   <img src="../img/googleplex.jpg" width="600">
 </p>
 
+
+I hope to keep on developing my skills, and in the future I aspire to contribute to tech companies in Norway by applying my software engineering skills to drive innovation and digital transformation. I also hope to inspire and support more woman in tech, fostering a more inclusive environment where diverse perspectives can thrive and shape the future of the industry in Norway. I would love to see Norway strengthen its position in the global technology landscape, especially in the comparison to other Scandinavian countries like Sweden and Denmark, which have already established strong reputations for innovation. 
   
