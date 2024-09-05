@@ -8,6 +8,8 @@ published: true
 labels:
   - Java
   - FXML
+  - JUnit 5
+  - OOP
 summary: "My teammate and I developed a Hotel Booking App for our TDT4100: Object-Oriented Programming course at the Norwegian Univeristy of Science and Technology"
 ---
 
