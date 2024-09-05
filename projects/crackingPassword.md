@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cybersecurity.jpeg
+image: img/cybersecurity.jpg
 title: "Cyber Security"
 date: 2022
 published: true
