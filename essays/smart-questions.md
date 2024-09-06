@@ -3,97 +3,40 @@ layout: essay
 type: essay
 title: "Smart Questions, Good Answers"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2022-09-05
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## Why asking smart questions?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+The ability to ask smart questions is a critical skill that can significantly influence the effectiveness of communication, collaboration, and problem solving. Smart questions not only facilitate the exchange of knowledge but also reflect the asker’s understanding of the subject matter and their commitment to finding a solution. This essay discusses the importance of smart questions for software engineers, evaluates how specific questions fulfill the precepts for smart questions and shares insights gained from this experience. 
+
+There are multiple reasons why being able to ask smart questions is important in software engineering. One of them is the efficiency aspect of it. In a field where time is often the essence, asking well-structured questions can lead to quicker resolutions. Engineers who articulate their problems clearly enable others to provide precise answers, which will also contribute to knowledge sharing which can benefit others facing similar challenges. 
+
 
 ## What’s a smart question?
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+This user asks “How to extend an existing JacaScript array with another array, withough creating a new array”. This question is very clear. The user specifies that they want to extend an existing JavaScript array (a) with another array (b) and provides a clear example of the desired outcome with a code snippet. The user also mentioned the concat method and acknowledges its limitation in creating a new array rather than modifying the existing one. This demonstrates some prior research and understanding of JavaScript array methods.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+This question is a good example of a smart question, as it is clear, explicit, specific and demonstrates prior effort. The question does not come off as urgent or impolite which also matches with a smart question. Responses to this question ended up being well-formed and helpful, without having to go back and forth with the asker.
 
-```
-Q: python date of the previous month
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+## A not so smart question.
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+For this example the user wrote a question with the title “Why is TypeScript not functioning as expected in Visual Studio Code?” . The explanation text only says “i get errors in vscode but every thing works correctly. some errors: Type expected.”, as well as a little code snippet without any further explanation of the code. 
 
-I have solved this trouble in bash with:
+This question lacks clarity and specificity. While it mentions that there are errors in VS Code, it does not provide sufficient context about what the user has tried to resolve the issue or the specific circumstances under which the errors occur. Although the user provides some error messages, which is a positive aspect, the question lacks a description of the symptoms of the problem in more detail. For example, explaining that what the expected behavior is versus what is actually happening would help others understand the issue better. 
 
-echo $(date -d"3 month ago" "+%G%m%d")
+This question has not received any answers (in typing moment) which shows that providing context is crucial when asking technical questions. Including relevant details about the environment, configurations, and specific code snippets can significantly enhance the quality of responses received. This question also shows that being explicit about what assistance is needed can help guide respondents to provide more targeted and useful answers.
 
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
 
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
+## Take aways
 
-Thanks for your help!
-```
+These two examples show how preparation is key when asking a smart question. The preparation not only aids in formulating the question but also enhances the asker’s knowledge of the subject. Smart questions foster a more engaged and supportive community and contribute to knowledge sharing, which will benefit everyone involved. 
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
