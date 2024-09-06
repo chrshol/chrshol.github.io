@@ -21,7 +21,7 @@ There are multiple reasons why being able to ask smart questions is important in
 
 ## What’s a smart question?
 
-This user asks “How to extend an existing JacaScript array with another array, withough creating a new array”. This question is very clear. The user specifies that they want to extend an existing JavaScript array (a) with another array (b) and provides a clear example of the desired outcome with a code snippet. The user also mentioned the concat method and acknowledges its limitation in creating a new array rather than modifying the existing one. This demonstrates some prior research and understanding of JavaScript array methods.
+[This user] (https://stackoverflow.com/q/1374126) asks “How to extend an existing JacaScript array with another array, withough creating a new array”. This question is very clear. The user specifies that they want to extend an existing JavaScript array (a) with another array (b) and provides a clear example of the desired outcome with a code snippet. The user also mentioned the concat method and acknowledges its limitation in creating a new array rather than modifying the existing one. This demonstrates some prior research and understanding of JavaScript array methods.
 
 This question is a good example of a smart question, as it is clear, explicit, specific and demonstrates prior effort. The question does not come off as urgent or impolite which also matches with a smart question. Responses to this question ended up being well-formed and helpful, without having to go back and forth with the asker.
 
@@ -29,7 +29,7 @@ This question is a good example of a smart question, as it is clear, explicit, s
 
 ## A not so smart question.
 
-For this example the user wrote a question with the title “Why is TypeScript not functioning as expected in Visual Studio Code?” . The explanation text only says “i get errors in vscode but every thing works correctly. some errors: Type expected.”, as well as a little code snippet without any further explanation of the code. 
+For [this example] (https://stackoverflow.com/q/77705058) the user wrote a question with the title “Why is TypeScript not functioning as expected in Visual Studio Code?” . The explanation text only says “i get errors in vscode but every thing works correctly. some errors: Type expected.”, as well as a little code snippet without any further explanation of the code. 
 
 This question lacks clarity and specificity. While it mentions that there are errors in VS Code, it does not provide sufficient context about what the user has tried to resolve the issue or the specific circumstances under which the errors occur. Although the user provides some error messages, which is a positive aspect, the question lacks a description of the symptoms of the problem in more detail. For example, explaining that what the expected behavior is versus what is actually happening would help others understand the issue better. 
 
