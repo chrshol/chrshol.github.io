@@ -12,9 +12,7 @@ labels:
   - CSS
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_Bootstrap5.png">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
 
 Bootstrap has become the world’s most popular framework for building responsive, mobile-first websites. There has to be a reason for this, right? Given the rise of UI frameworks like Bootstrap 5, one might wonder why so many developers invest their time in learning these tools instead of sticking to good old HTML and CSS. Here is why I choose to invest my time in learning the Bootstrap framework.
 
