@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Bootstrap"
+title: "Bootstrap take on UI Frameworks"
 # All dates must be YYYY-MM-DD format!
 date: 2024-10-09
 published: ture
@@ -20,11 +20,11 @@ As someone who’s still fairly new to HTML and CSS, I was a bit scared to start
 ### Bootstrap in action
 To better illustrate the impact of using Bootstrap 5, let’s look at a visual comparison between two versions of the same webpage. The first version was built using only raw HTML and CSS, while the second version leverages Bootstrap 5 to enhance its design 
 
-<img width="100px" class="rounded float-start pe-4" src="..img\ui-frameworks\historyOfSurfing_Bootstrap5.png">
+<img width="100px" class="rounded float-start pe-4" src="..img\ui-frameworks\historyOfSurfing_Bootstrap5.jpg">
 
 *Without Bootstrap: Basic layout with no navigation bar*
 
-<img width="100px" class="rounded float-start pe-4" src="..img\ui-frameworks\historyOfSurfing_rawHTML.png">
+<img width="100px" class="rounded float-start pe-4" src="..img\ui-frameworks\historyOfSurfing_rawHTML.jpg">
 
 *With Bootstrap 5: Enhanced design with a navigation bar and improved responsiveness*
 
