@@ -20,14 +20,15 @@ As someone who’s still fairly new to HTML and CSS, I was a bit scared to start
 ### Bootstrap in action
 To better illustrate the impact of using Bootstrap 5, let’s look at a visual comparison between two versions of the same webpage. The first version was built using only raw HTML and CSS, while the second version leverages Bootstrap 5 to enhance its design 
 
-<img width="500px" class="rounded float-start pe-4" src="../img/ui-frameworks/historyOfSurfingRawHTML.jpg">
+<div style="text-align: start;">
+  <img width="500px" class="rounded" src="../img/ui-frameworks/historyOfSurfingRawHTML.jpg" alt="Without Bootstrap: Basic layout with no navigation bar">
+  <p><em>Without Bootstrap: Basic layout with no navigation bar</em></p>
+</div>
 
-*Without Bootstrap: Basic layout with no navigation bar*
-
-
-<img width="500px" class="rounded float-start pe-4" src="../img/ui-frameworks/historyOfSurfingBootstrap5.jpg">
-
-*With Bootstrap 5: Enhanced design with a navigation bar and improved responsiveness*
+<div style="text-align: start;">
+  <img width="500px" class="rounded" src="../img/ui-frameworks/historyOfSurfingBootstrap5.jpg" alt="With Bootstrap 5: Enhanced design with a navigation bar and improved responsiveness">
+  <p><em>With Bootstrap 5: Enhanced design with a navigation bar and improved responsiveness</em></p>
+</div>
 
 As you can see, the Bootstrap 5 version of the webpage includes a clean, well-structured navigation bar with minimal effort. It also has a more cohesive layout, making the page more visually appealing and easier to navigate. This transformation shows how Bootstraps' built-in components can save time while still creating a professional look. This was my first time using Bootstrap 5, and I really liked how fast and easy I could make my webpage look better by using Bootstrap. 
 
