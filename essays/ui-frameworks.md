@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Bootstrap take on UI Frameworks"
+title: "Bootstrap's take on UI Frameworks"
 # All dates must be YYYY-MM-DD format!
 date: 2024-10-09
 published: ture
@@ -33,8 +33,8 @@ To better illustrate the impact of using Bootstrap 5, let’s look at a visual c
 As you can see, the Bootstrap 5 version of the webpage includes a clean, well-structured navigation bar with minimal effort. It also has a more cohesive layout, making the page more visually appealing and easier to navigate. This transformation shows how Bootstraps' built-in components can save time while still creating a professional look. This was my first time using Bootstrap 5, and I really liked how fast and easy I could make my webpage look better by using Bootstrap. 
 
 ### Why bother learning Bootstrap 5
-Given the challenges and the initial frustration of not understanding how everything works, why should anyone bother to learn Bootstrap 5 instead of just sticking with raw HTML and CSS? The answer is simple: efficiency and scalability. Using Bootstrap significantly speeds up the development process by providing a vast library of pre-designed components and responsive grid systems. Instead of spending hours creating a layout from scratch, you can simply use Bootstrap’s classes to build a cohesive and mobile friendly design in minutes.
+Given the challenges and the initial frustration of not understanding how everything works, why should anyone bother to learn Bootstrap 5 instead of just sticking with raw HTML and CSS? The answer is simple: efficiency and scalability. Using Bootstrap significantly speeds up the development process by providing a vast library of pre-designed components and responsive grid systems. Instead of spending hours creating a layout from scratch, you can simply use Bootstrap’s classes to build a cohesive and mobile friendly design in minutes. For newcomers like me, it also means learning industry standards that many professional developers rely on, which helps bridhe the gap between beginner projects and real-world applications. 
 
-### Conclusion
+### Wrapping it up
 In the end, using Bootstrap 5 is like having a toolbox filled with shortcuts that make web development easier and more enjoyable. While it can be challenging to navigate its built-in styles and utility classes at first, the benefits of clean, responsive and professional looking websites far outweigh the initial struggles. For someone like me, who is still learning the ropes of HTML and CSS, I’m looking forward to continue to develop my skills using Bootstrap. Although I know I will stumble and struggle on the way, it will be worth it in the end when I can create beautiful, responsive webpages that I’m proud of.
 
