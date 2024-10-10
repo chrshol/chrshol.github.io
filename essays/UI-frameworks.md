@@ -28,12 +28,12 @@ As someone who’s still fairly new to HTML and CSS, I was a bit scared to start
 
 To better illustrate the impact of using Bootstrap 5, let’s look at a visual comparison between two versions of the same webpage. The first version was built using only raw HTML and CSS, while the second version leverages Bootstrap 5 to enhance its design.
 
-<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_rawHTML.png">
+<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_rawHTML.jpg">
 
 *Without Bootstrap 5: Basic layout with no navigation bar*
 
 
-<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_Bootstrap5.png">
+<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_Bootstrap5.jpg">
 
 *With Bootstrap 5: Enhances design with a navigation bar and improved responsiveness*
 
