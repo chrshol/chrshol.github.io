@@ -1,4 +1,3 @@
-
 ---
 layout: essay
 type: essay
@@ -13,46 +12,42 @@ labels:
   - CSS
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_Bootstrap5.png">
 
 *Difficulty: a thing that is hard to accomplish, deal with, or understand.*
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+Bootstrap has become the world’s most popular framework for building responsive, mobile-first websites. There has to be a reason for this, right? Given the rise of UI frameworks like Bootstrap 5, one might wonder why so many developers invest their time in learning these tools instead of sticking to good old HTML and CSS. Here is why I choose to invest my time in learning the Bootstrap framework.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
 
-Here's what I think: the difficult things will always be difficult.
+## My first encounter with Bootstrap 5
 
-## In the context of programming
+As someone who’s still fairly new to HTML and CSS, I was a bit scared to start using Bootstrap 5 to create web pages, but I quickly started enjoying it. I found it really cool to see how quickly I could build something that looked polished and professional using Bootstrap’s pre-designed components. Adding things like a navigation bar or footer was so much easier than I expected. However, I soon realized that understanding the code wasn’t straightforward. Bootstrap relies heavily on utility classes, which meant a lot of the styling was happening right inside the HTML. This made it tough to figure out how to make small tweaks, like moving a logo just a bit more to the right. I often found myself struggling to know which class to use or where to make adjustments without breaking the layout. Even though it was a challenge, I learned that mastering Bootstrap is all about balancing its powerful shortcuts with a solid understanding of how those classes are actually affecting the design.
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+## Bootstrap 5 in action
 
-## In the context of engineering
+To better illustrate the impact of using Bootstrap 5, let’s look at a visual comparison between two versions of the same webpage. The first version was built using only raw HTML and CSS, while the second version leverages Bootstrap 5 to enhance its design.
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
+<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_rawHTML.png">
 
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
+*Without Bootstrap 5: Basic layout with no navigation bar*
 
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
 
-## In the context of relationships
+<img width="200px" class="rounded float-start pe-4" src="..\img\ui-frameworks\historyOfSurfing_Bootstrap5.png">
 
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
+*With Bootstrap 5: Enhances design with a navigation bar and improved responsiveness*
 
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
+As you can see, the Bootstrap 5 version of the webpage includes a clean, well-structured navigation bar with minimal effort. It also has a more cohesive layout, making the page more visually appealing and easier to navigate. This transformation shows how Bootstraps' built-in components can save time while still creating a professional look. This was my first time using Bootstrap 5, and I really liked how fast and easy I could make my webpage look better by using Bootstrap. 
 
-Relationships have always been difficult, and by nature will continue to be so.
+
+## Why bother learning Bootstrap 5
+
+Given the challenges and the initial frustration of not understanding how everything works, why should anyone bother to learn Bootstrap 5 instead of just sticking with raw HTML and CSS? The answer is simple: efficiency and scalability. Using Bootstrap significantly speeds up the development process by providing a vast library of pre-designed components and responsive grid systems. Instead of spending hours creating a layout from scratch, you can simply use Bootstrap’s classes to build a cohesive and mobile friendly design in minutes.
+
+
 
 ## Okay!
 
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+In the end, using Bootstrap 5 is like having a toolbox filled with shortcuts that make web development easier and more enjoyable. While it can be challenging to navigate its built-in styles and utility classes at first, the benefits of clean, responsive and professional looking websites far outweigh the initial struggles. For someone like me, who is still learning the ropes of HTML and CSS, I’m looking forward to continue to develop my skills using Bootstrap. Although I know I will stumble and struggle on the way, it will be worth it in the end when I can create beautiful, responsive webpages that I’m proud of. 
