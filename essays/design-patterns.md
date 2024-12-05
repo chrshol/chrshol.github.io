@@ -18,6 +18,7 @@ Think of design patterns like the basic rules cities follow to stay organized. J
   <img width="70%" class="rounded" src="../img/design-patterns/city_planning.jpg" alt="City Planning Picture">
 </div>
 
+<br>
 
 In my software engineering course I have been working with applications that perfectly illustrate how these patterns work together. Let me break this down into simpler, more digestible sections: 
 
