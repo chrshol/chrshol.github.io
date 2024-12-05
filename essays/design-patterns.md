@@ -1,40 +1,41 @@
 ---
 layout: essay
 type: essay
-title: "Design Patterns"
+title: "Building Software Like Building a City"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-05
 published: ture
 labels:
   - Design Patterns
-  - Bootstrap 5
-  - HTML
-  - CSS
+  - Software Engineering
 ---
 
-Bootstrap has become the world’s most popular framework for building responsive, mobile-first websites. There has to be a reason for this, right? Given the rise of UI frameworks like Bootstrap 5, one might wonder why so many developers invest their time in learning these tools instead of sticking to good old HTML and CSS. Here is why I choose to invest my time in learning the Bootstrap framework.  
+Design patterns in software engineering can be compared to city planning. When a city grows without planning, you end up with confusing streets, inefficient transportation, and buildings that don’t quite serve their purpose. The same happens with software that goes without proper design patterns - it becomes a tangled mess of code that’s difficult to navigate and maintain. 
 
-### My first encounter with Bootstrap 5
-As someone who’s still fairly new to HTML and CSS, I was a bit scared to start using Bootstrap 5 to create web pages, but I quickly started enjoying it. I found it really cool to see how quickly I could build something that looked polished and professional using Bootstrap’s pre-designed components. Adding things like a navigation bar or footer was so much easier than I expected. However, I soon realized that understanding the code wasn’t straightforward. Bootstrap relies heavily on utility classes, which meant a lot of the styling was happening right inside the HTML. This made it tough to figure out how to make small tweaks, like moving a logo just a bit more to the right. I often found myself struggling to know which class to use or where to make adjustments without breaking the layout. Even though it was a challenge, I learned that mastering Bootstrap is all about balancing its powerful shortcuts with a solid understanding of how those classes are actually affecting the design.
-
-### Bootstrap in action
-To better illustrate the impact of using Bootstrap 5, let’s look at a visual comparison between two versions of the same webpage. The first version was built using only raw HTML and CSS, while the second version leverages Bootstrap 5 to enhance its design 
+Think of design patterns like the basic rules cities follow to stay organized. Just as cities use street grids to help people get around and put similar buildings together (like keeping shops in one area and homes in another), programmers use design patterns to keep their code neat and working smoothly. These patterns weren’t made up overnight - they came from programmers noticing that certain ways of solving problems worked really well, so they started using these solutions over and over again. 
 
 <div style="text-align: start;">
   <img width="70%" class="rounded" src="../img/design-patterns/city_planning.jpg" alt="City Planning Picture">
-  <p><em>Without Bootstrap: Basic layout with no navigation bar</em></p>
 </div>
 
-<div style="text-align: start;">
-  <img width="70%" class="rounded" src="../img/ui-frameworks/historyOfSurfingBootstrap5.jpg" alt="With Bootstrap 5: Enhanced design with a navigation bar and improved responsiveness">
-  <p><em>With Bootstrap 5: Enhanced design with a navigation bar and improved responsiveness</em></p>
-</div>
 
-As you can see, the Bootstrap 5 version of the webpage includes a clean, well-structured navigation bar with minimal effort. It also has a more cohesive layout, making the page more visually appealing and easier to navigate. This transformation shows how Bootstraps' built-in components can save time while still creating a professional look. This was my first time using Bootstrap 5, and I really liked how fast and easy I could make my webpage look better by using Bootstrap. 
+In my software engineering course I have been working with applications that perfectly illustrate how these patterns work together. Let me break this down into simpler, more digestible sections: 
 
-### Why bother learning Bootstrap 5
-Given the challenges and the initial frustration of not understanding how everything works, why should anyone bother to learn Bootstrap 5 instead of just sticking with raw HTML and CSS? The answer is simple: efficiency and scalability. Using Bootstrap significantly speeds up the development process by providing a vast library of pre-designed components and responsive grid systems. Instead of spending hours creating a layout from scratch, you can simply use Bootstrap’s classes to build a cohesive and mobile friendly design in minutes. For newcomers like me, it also means learning industry standards that many professional developers rely on, which helps bridhe the gap between beginner projects and real-world applications. 
+Imagine a city with three main areas: homes, shops, and factories. My apps works the same way with the **MVC pattern**:
+- The Models (my database schemas in the Prisma directory) are like factories, handling all the heavy data work, processing and storing
+- The Views (React components in my src/components directory) are like shops where users interact with the app
+- The Controllers (spread across my src/app and src/lib directory) are like the roads connecting everything together
 
-### Wrapping it up
-In the end, using Bootstrap 5 is like having a toolbox filled with shortcuts that make web development easier and more enjoyable. While it can be challenging to navigate its built-in styles and utility classes at first, the benefits of clean, responsive and professional looking websites far outweigh the initial struggles. For someone like me, who is still learning the ropes of HTML and CSS, I’m looking forward to continue to develop my skills using Bootstrap. Although I know I will stumble and struggle on the way, it will be worth it in the end when I can create beautiful, responsive webpages that I’m proud of.
+I used Next.js routing like a city’s main bus station - all visitors enter through one place and get directed to where they need to go. This makes it easy to keep track of everyone and keep the system secure. 
+
+For handling data, I implemented the **repository pattern**. Think of it like a post office - mail carriers know exactly how to deliver packages, while people sending mail don’t need to know all the details of how the postal system works. 
+
+In my components, I used the **container pattern** to separate how things look from how they work - like having a beautiful building facade while all the plumbing and electrical work happens behind the scenes. An app containing a form for users to submit is a good example. The part the user sees is completely different from all the behind-the-scenes work.
+
+For user logins, I used something called the **singleton pattern**. My apps needed a single, authoritative source to handle all user sessions. It’s like having one city hall that keeps all official records, instead of having multiple offices with different versions of the same documents - that would be chaos!
+
+These patterns aren’t just fancy ideas - they solve real problems by bringing order to the chaos of software development. Just like a city designed with efficient transportation, clear zoning, and green spaces, well-implemented design patterns make software more intuitive, adaptable, and robust. 
+
+Remember: using design patterns is like city planning - it’s not about following strict rules, but about using tried-and-true solutions to build something that works well for everyone. 
+
 
