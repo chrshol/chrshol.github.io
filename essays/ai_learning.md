@@ -27,40 +27,40 @@ Looking back at my journey in programming, it’s kind of wild to think about ho
 #### II. Personal Experience with AI
 Let me break down how I’ve been using AI throughout my Software Engineering, ICS314, course:
 
-**Experience WODs**
+**Experience WODs**  
 For our Experience WODs, I actually saw these as a great opportunity to tackle these challenges without relying on AI. The Experience WODs were my safe space where I could really learn and understand things properly. Even though they were supposed to be timed, I gave myself permission to slow down and work through problems the old-school way - you know, actually figuring stuff out step by step without rushing to AI for answers. Sure, I often had to watch the screencasts to help me get started, but that felt more authentic to my learning style. I’d work through the WOD first at my own pace, then try to speed it up on subsequent attempts. Looking back, these were probably the assignments where I used AI tools the least, and I’m kind of glad about that. It gave me a chance to build that fundamental understanding that you just can’t get from quick AI solutions. 
 
-**In-class Practise WODs**
+**In-class Practise WODs**  
 For practice WODs, I tried to keep it real and limit my AI use. These were my chances to actually test what I knew without a safety net. But even though these WODs were only for practice and not graded, I could often feel myself getting stressed If I got stuck or used too much time. Then I would peek at what ChatGPT had to say, and he usually had a lot of useful things to say. 
 
-**In-Class WODs**
+**In-Class WODs**  
 Let’s be real - during in-class WODs, time pressure is no joke. And you probably already guessed it - if I got stressed during my practice WODs, I most definitely got stressed during my graded in-class WODs. ChatGPT became my trusty sidekick here. When I get stressed I find it hard to concentrate, and sometimes I just needed ChatGPT to help see why I was getting errors or why my code was not doing what the task description asked for. Though I made sure I understood what it was suggesting before blindly accepting anything. 
 
-**Essays** 
+**Essays**   
 For essays, AI became like a brainstorming partner. Instead of staring at a blank screen, i’d bounce ideas off ChatGPT. Still, all the actual content came from my own experiences and thoughts - the AI just helped me get the ball rolling and structure my thoughts. 
 
-**Final Project**
+**Final Project**  
 The final project was where I really leaned into using GitHub Copilot, which I had not been using before. It saved me so much time on the basic stuff, like setting up components and writing boilerplate code. This freed me up to focus on the more interesting parts of the project, like figuring out the overall architecture and implementing the cool features. 
 
-**Learning a concept / tutorial**
+**Learning a concept / tutorial**  
 AI is great for learning new concepts, and this is probably one of the smartest ways I used AI throughout the course. WHat I loved about ChatGPT was how it could break down complex ideas into simple terms, and if I still didn’t get it, I could just say “Hey, can you explain that even simpler?” or “Can you give me an example?” And boom - it would try again with an even clearer explanation and some code examples to boot. When using AI you don’t have to be scared to seem stupid, you can ask as many times as you need until you really get it!
 
-**Answering a question in class or in Discord**
+**Answering a question in class or in Discord**  
 This one’s pretty straightforward - if I knew the answer, I answered. No need to complicate things by bringing AI into it. When I felt confident enough to help out a classmate, it meant I actually understood the concept well enough to explain it myself. That’s the kind of knowledge you want to share directly. 
 
-**Asking or answering a smart-question**
+**Asking or answering a smart-question**  
 The smart-question channel turned out to be super valuable for me! I remember this one time where I was totally stuck. I spent hours trying to figure out why one of my essays wouldn’t get posted on this github.io site. ChatGPT could not save me on this one, so instead I used chatGPT to better understand my issue so I could ask a clearer question. And I’m glad I did! Turned out another student had run into the exact same problem, and all it took was changing one line of code to get everything working again.  
 
-**Coding example / Explaining code / Writing code**
+**Coding example / Explaining code / Writing code**  
 These three really go hand in hand in my experience. While I used AI differently for each, they all kind of blended together in my learning process. For coding examples, I’d ask for them to better understand a concept. When it came to explaining code, I would try understanding it myself first, and then use AI to fill in the gaps if needed. As for writing code, I tried to find a balance. I’d use AI for inspiration or when I was really stuck, but I made sure to write a lot of code myself too. 
 
-**Documenting code**
+**Documenting code**  
 Documentation is another area where AI can be super helpful, though I realize I probably didn’t use it as much as I could have. Looking back, I see some missed opportunities - it could have helped me write better commit messages during our final project, or just helped me document my thought process when I was deep in the coding zone and everything made sense (but might not have made sense later!). 
 
-**Quality assurance**
+**Quality assurance**  
 This is where AI really got to shine for me in ICS314. Whether it was tracking down bugs, fixing ESLint errors, or just making sure my code was following the best practices, AI tools were incredibly useful. They saved me tons of time on the nitty-gritty details and helped me catch issues I might have missed otherwise. Looking back at the time before AI I remember one time I almost spent a whole day trying to figure out why my code wouldn’t run in my OOP Java project - it turned out I was missing a curly bracket. Today that would have taken me less than a second to fix with AI.   
 
-**Other uses**
+**Other uses**  
 The categories we’ve covered pretty much sum up my AI usage in this course. While I’m sure there are other creative ways to use AI in software engineering, these were the main ways I found it helpful in ICS314.
 
 #### III. Impact on Learning and Understanding
@@ -81,23 +81,5 @@ As these AI tools keep getting better (which they definitely will), we'll probab
 #### VIII. Conclusion
 Looking back at this semester, I can see that AI tools have definitely changed how I learn and work. Sure, I might use them more than I initially thought I would, but that's not necessarily a bad thing. The key has been staying aware of how I'm using them and making sure they're helping me learn, not just giving me quick fixes. As we move forward, finding that balance between traditional learning and AI assistance will be super important. After all, these tools aren't going anywhere - we might as well learn to use them wisely!
 
-
-
-
-
-
-
-
-
-**The Container Pattern: Separating Looks from Functionality**
-In my components, I used the container pattern to separate how things look from how they work - like having a beautiful building facade while all the plumbing and electrical work happens behind the scenes. An app containing a form for users to submit is a good example. The part the user sees is completely different from all the behind-the-scenes work.
-
-**The Singleton Pattern: A Centralized Authority**
-For user logins, I used something called the singleton pattern. My apps needed a single, authoritative source to handle all user sessions. It’s like having one city hall that keeps all official records, instead of having multiple offices with different versions of the same documents - that would be chaos!
-
-##### Design Patterns Matter!
-These patterns aren’t just fancy ideas - they solve real problems by bringing order to the chaos of software development. Just like a city designed with efficient transportation, clear zoning, and green spaces, well-implemented design patterns make software more intuitive, adaptable, and robust. 
-
-Remember: using design patterns is like city planning - it’s not about following strict rules, but about using tried-and-true solutions to build something that works well for everyone. 
 
 
