@@ -4,7 +4,7 @@ type: essay
 title: "Building Software Like Building a City"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-05
-published: ture
+published: true
 labels:
   - Design Patterns
   - Software Engineering
