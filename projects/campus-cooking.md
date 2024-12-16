@@ -83,11 +83,13 @@ Users can sign up or sign in to the application using their existing account, or
 
 ### Contact Us Page
 Users can contact us as developers through the form, with suggestions for improvement, questions, or ideas for other appliances/filters the application could include.
-<img src="../img/campus-cooking/contact-us-page.png" width="600px">  
+<img src="../img/campus-cooking/contact-us-page.png" width="600px"> 
+
 
 ### About Us Page
 Users can learn more about the developers and the purpose of the application.
-<img src="../img/campus-cooking/about-us-page.png" width="600px">   
+<img src="../img/campus-cooking/about-us-page.png" width="600px">
+   
 
 ### Admin Dashboard
 
