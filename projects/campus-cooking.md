@@ -95,11 +95,11 @@ Users can learn more about the developers and the purpose of the application.<br
 ### Admin Dashboard
 
 Admins have additional privileges. They get an overview over every recipes and can monitor them by deleting not appropriate recipes or editing them. 
-<img src="../img/campus-cooking/admin_monitor_page.png" width="600px">  
+<img src="../img/campus-cooking/admin_monitor_page.png" width="800px">  
 
-<img src="../img/campus-cooking/admin_delete_recipe.png" width="600px">   
+<img src="../img/campus-cooking/admin_delete_recipe.png" width="800px">   
 
-<img src="../img/campus-cooking/admin_edit_recipe.png" width="600px">   
+<img src="../img/campus-cooking/admin_edit_recipe.png" width="800px">   
 
 
 ### Github Organization
