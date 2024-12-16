@@ -54,8 +54,11 @@ The landing page introduces new users to Campus Cooking, with easy navigation to
 This page will also include a place to browse recipes and posts via the grid view.
 
 <img src="../img/campus-cooking/landing-page-1.png" width="600px">
+
 <img src="../img/campus-cooking/landing-page-2.png" width="600px">
+
 <img src="../img/campus-cooking/landing-page-3.png" width="600px">
+
 <img src="../img/campus-cooking/landing-page-4.png" width="600px">
 
 
@@ -68,9 +71,11 @@ The recipe search page allows students to explore a variety of meals and snacks,
 - Estimated preparation time and servings
 User are also able to add their own recipes to the database via the add recipe page, which will be accessible only to logged in users, and the posts will be reviewed by admins when added to the database.
 
-<img src="../img/campus-cooking/add-recipe-page.png" width="600px">     
-<img src="../img/campus-cooking/search-recipe-page-1.png" width="600px">    
-<img src="../img/campus-cooking/search-recipe-page-2.png" width="600px">     
+<img src="../img/campus-cooking/add-recipe-page.png" width="600px">
+
+<img src="../img/campus-cooking/search-recipe-page-1.png" width="600px">
+
+<img src="../img/campus-cooking/search-recipe-page-2.png" width="600px">
 
 ### Login Page 
 Users can sign up or sign in to the application using their existing account, or create an account with their email and password.
