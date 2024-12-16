@@ -87,7 +87,7 @@ Users can contact us as developers through the form, with suggestions for improv
 
 
 ### About Us Page
-Users can learn more about the developers and the purpose of the application.
+Users can learn more about the developers and the purpose of the application.<br>
 
 <img src="../img/campus-cooking/about-us-page.png" width="600px">
 
