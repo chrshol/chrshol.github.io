@@ -13,7 +13,7 @@ labels:
   - Typescript
   - React
   - CSS
-summary: "Campus Cooking was my group final project in my software engineering course (ICS 314) as University of Hawaii. Campus Cooking is an application that helps campus students make affordable, healthy, and accessible meals with limited kitchen resources, perfect for students living on campus in dorms!"
+summary: "Campus Cooking was a final project in my software engineering course (ICS 314) at University of Hawaii. Campus Cooking is an application that helps campus students make affordable, healthy, and accessible meals with limited kitchen resources - perfect for students living in dorms!"
 ---
 
 
