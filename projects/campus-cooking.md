@@ -7,7 +7,7 @@ date: 2024
 published: true
 labels:
   - Software Engineering
-  - Web Applicxation
+  - Web Application
   - Vercel
   - Next.js
   - Typescript
