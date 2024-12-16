@@ -17,7 +17,7 @@ labels:
 Throughout this semester in my software engineering course, I've discovered that there's so much more to the field than just developing web applications. I now have a genuine understanding of what it means to work in large-scale software development teams in the real world. Three fundamental concepts have particularly transformed my perspective on software engineering: Coding Standards, Agile Project Management, and Configuration Management. While I learned these in the context of web development, their applications extend far beyond that, influencing how we tackle any complex technological project.
 
 <div style="text-align: start;">
-  <img width="70%" class="rounded" src="../img/ai-learning/AI-learning.jpg" alt="City Planning Picture">
+  <img width="70%" class="rounded" src="../img/se-relection/se_reflection.png"  alt="City Planning Picture">
 </div>
 
 <br>
