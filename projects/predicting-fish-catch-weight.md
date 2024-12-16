@@ -15,7 +15,6 @@ labels:
 summary: "My team of four developed multiple machine learning models to predict the weight of fish in a single catch operation for our INFO284 Machine Learning course at the University of Bergen."
 ---
 
-
 ## Project Overview
 In this group project, we developed machine learning models to predict the total weight of fish catches from Norwegian fishing vessels. Using a dataset containing over 300,000 fishing operation reports from 2018, we implemented and compared various regression models including Linear Regression, LASSO, Ridge, Random Forest, and Neural Networks (MLP).
 
@@ -52,14 +51,12 @@ forest.fit(X_train, y_train)
 forest_predicted_values = forest.predict(X_val)
 ```
 
+
+
 ## Results
 Our model comparison showed clear differences in prediction accuracy:
 
-| Model | R² Score | RMSE |
-|-------|----------|------|
-| Ridge Regression with MinMaxScaler() | 0.336 | 50360.20 |
-| Random Forest (default parameters) | 0.741 | 31480.65 |
-| MLP with StandardScaler() | 0.658 | 36153.64 |
+![](../img/fish-predict/prediction-results.png)
 
 The Random Forest model significantly outperformed other approaches, explaining 74% of the variance in catch weights. This suggests that non-linear relationships in the data are important for accurate predictions.
 
