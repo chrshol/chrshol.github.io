@@ -27,7 +27,7 @@ Here is a photo illustrating how the app looks like:
 
 ## Key Technical Features
 
-### 1. Smart Booking Logic
+#### 1. Smart Booking Logic
 One of the core features is the intelligent booking validation system that prevents double bookings and ensures room capacity isn't exceeded:
 
 ```java
@@ -49,7 +49,7 @@ public void bookRoom(Room room, Guest guest) {
 }
 ```
 
-### 2. Dynamic Pricing System
+#### 2. Dynamic Pricing System
 We implemented a flexible pricing system that includes dynamic discounts based on the number of children:
 
 ```java
@@ -72,7 +72,7 @@ public double setTotalPrice(Room room, LocalDate checkIn, LocalDate checkOut, in
 }
 ```
 
-### 3. Clean GUI Integration
+#### 3. Clean GUI Integration
 The application uses JavaFX with FXML for a clean separation of concerns. Here's the main application setup:
 
 ```java
@@ -87,7 +87,7 @@ public class HotelBookingApp extends Application {
 }
 ```
 
-### 4. Robust Testing
+#### 4. Robust Testing
 We implemented comprehensive unit tests to ensure reliability:
 
 ```java
