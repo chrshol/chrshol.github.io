@@ -61,9 +61,13 @@ Our model comparison showed clear differences in prediction accuracy:
 The Random Forest model significantly outperformed other approaches, explaining 74% of the variance in catch weights. This suggests that non-linear relationships in the data are important for accurate predictions.
 
 ## Clustering Analysis
-We also performed unsupervised learning using K-means clustering to identify patterns in fishing operations:
+We also performed unsupervised learning using K-means clustering to identify patterns in fishing operations.
+
+The elbow method is a technique used to determine the optimal number of clusters in a dataset by plotting the within-cluster sum of squares (WCSS) against the number of clusters.
 
 ![](../img/fish-predict/elbow-method.png)
+
+The elbow method is subjective but it looked like 2 might be the pivot point.
 
 Using PCA for dimensionality reduction, we identified two distinct clusters in the data:
 
