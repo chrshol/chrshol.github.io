@@ -16,7 +16,6 @@ labels:
 summary: "Campus Cooking was my group final project in my software engineering course (ICS 314) as University of Hawaii. Campus Cooking is an application that helps campus students make affordable, healthy, and accessible meals with limited kitchen resources, perfect for students living on campus in dorms!"
 ---
 
-# Campus Cooking
 
 ![campus-cooking](https://github.com/Campus-Cooking/site-M1/actions/workflows/ci.yml/badge.svg)
 
