@@ -4,7 +4,7 @@ type: essay
 title: "My first meeting with TypeScript"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-03
-published: true
+published: false
 labels:
   - TypeScript
   - Learning

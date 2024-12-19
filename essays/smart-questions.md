@@ -4,7 +4,7 @@ type: essay
 title: "Smart Questions, Good Answers"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-05
-published: true
+published: false
 labels:
   - Questions
   - Answers

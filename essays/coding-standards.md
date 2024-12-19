@@ -11,6 +11,11 @@ labels:
   - Software Engineering
 ---
 
+<div style="text-align: start;">
+  <img width="70%" class="rounded" src="../img/coding-standards/coding-standards.png" alt="Coding Standards">
+</div>
+
+<br>
 
 ## More than just rules - Coding as a Language
 
@@ -23,12 +28,6 @@ Standards like ESLint serve purpose beyond only catching errors - they guide us 
 
 
 However, I also recognize that ESLint is immensely useful. These "annoying little rules" act as training wheels, helping to shape our subconscious habits over time. Linters serve as a constant reminder of the importance of clean code and helps catch errors that I might overlook. Each time I fix an error, I learn more about coding standards and best practices. So, while the process can be painful and ESLint seems unforgiving at first, it is undeniably beneficial in the long run.
-
-<div style="text-align: start;">
-  <img width="70%" class="rounded" src="../img/coding-standards/training-wheels.jpg" alt="City Training Wheels">
-</div>
-
-<br>
 
 
 ## Being a Teamplayer
