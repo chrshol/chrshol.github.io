@@ -19,10 +19,19 @@ In the world of software engineering, coding standards are often seen as a set o
 
 ## Painful, but Useful
 
-Standards like ESLint serve purpose beyond only catching errors - they guide us toward cleaner, more efficient coding patterns. Initially, using ESLint can feel frustrating, especially when it will underline the entire code snippet in red for something as minor as a missing space. I’ve experienced this firsthand, and it can be irritating, especially when I feel like I’ve done everything right.  
+<style>
+img[alt$=">"] {
+  float: right;
+  width: 200px;
+  margin-left: 20px;
+}
+</style>
 
-However, I also recognize that ESLint is immensely useful. These “annoying little rules” act as training wheels, helping to shape our subconscious habits over time. Linters serve as a constant reminder of the importance of clean code and helps catch errors that I might overlook. Each time I fix an error, I learn more about coding standards and best practices. So, while the process can be painful and ESLint seems unforgiving at first, it is undeniably beneficial in the long run.
+Standards like ESLint serve purpose beyond only catching errors - they guide us toward cleaner, more efficient coding patterns. Initially, using ESLint can feel frustrating, especially when it will underline the entire code snippet in red for something as minor as a missing space. I've experienced this firsthand, and it can be irritating, especially when I feel like I've done everything right.  
 
+![Training wheels >](../img/coding-standards/training-wheels.jpg)
+
+However, I also recognize that ESLint is immensely useful. These "annoying little rules" act as training wheels, helping to shape our subconscious habits over time. Linters serve as a constant reminder of the importance of clean code and helps catch errors that I might overlook. Each time I fix an error, I learn more about coding standards and best practices. So, while the process can be painful and ESLint seems unforgiving at first, it is undeniably beneficial in the long run.
 
 
 ## Being a Teamplayer
@@ -33,5 +42,5 @@ Coding standards are not just about pleasing a machine - they are essential for 
 
 ## Trust the process
 
-While coding standards may seem like a tedious aspect of software engineering, they are vital for creating high-quality, maintainable code. My experience with ESLint has shown me that, despite the frustration it can cause, the benefits outweigh the drawbacks. By embracing coding standards, developers can enhance their skills, improve collaboration, and ultimately deliver better software. So, the next time I find myself grappling with a red error line, I will remember that it’s all part of the journey toward becoming a better coder. 
+While coding standards may seem like a tedious aspect of software engineering, they are vital for creating high-quality, maintainable code. My experience with ESLint has shown me that, despite the frustration it can cause, the benefits outweigh the drawbacks. By embracing coding standards, developers can enhance their skills, improve collaboration, and ultimately deliver better software. So, the next time I find myself grappling with a red error line, I will remember that it's all part of the journey toward becoming a better coder. 
 
