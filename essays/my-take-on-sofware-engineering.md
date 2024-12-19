@@ -13,7 +13,7 @@ labels:
 <style>
 img[alt$=">"] {
   float: right;
-  width: 200px;
+  width: 500px;
   margin-left: 20px;
 }
 </style>

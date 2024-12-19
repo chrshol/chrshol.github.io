@@ -22,7 +22,7 @@ In the world of software engineering, coding standards are often seen as a set o
 <style>
 img[alt$=">"] {
   float: right;
-  width: 200px;
+  width: 500px;
   margin-left: 20px;
 }
 </style>
