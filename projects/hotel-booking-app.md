@@ -20,7 +20,7 @@ My teammate and I developed a full-featured Hotel Booking System using Java and 
 Here is a photo illustrating how the app looks like:
 
 <p align="left">
-  <img src="../img/hotel-booking.png" width="600">
+  <img src="../img/hotel-booking.png" width="800">
 </p>
 
 
