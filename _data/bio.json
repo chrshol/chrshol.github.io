@@ -16,17 +16,18 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Financial Technology" },
-    { "name": "Graphic Design" },
+    { "name": "Web Application" },
+    { "name": "Machine Learning" },
     { "name": "Sustainability" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "Python", "Java", "Javascript", "Typescript" ]
+      "keywords": [ "Python", "Java", "Javascript", "Typescript", "HTML", "CSS" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Ubuntu", "Git/GitHub" ]
+      "keywords": [ "Git/GitHub", "VSCode", "Windows", "Node.js", "PostgreSQL", "Prisma", "Next.js", "Prettier/ESLint" ]
     }
   ],
   "education": [
