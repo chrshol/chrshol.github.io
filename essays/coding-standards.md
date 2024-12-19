@@ -19,19 +19,16 @@ In the world of software engineering, coding standards are often seen as a set o
 
 ## Painful, but Useful
 
-<style>
-img[alt$=">"] {
-  float: right;
-  width: 500px;
-  margin-left: 20px;
-}
-</style>
-
 Standards like ESLint serve purpose beyond only catching errors - they guide us toward cleaner, more efficient coding patterns. Initially, using ESLint can feel frustrating, especially when it will underline the entire code snippet in red for something as minor as a missing space. I've experienced this firsthand, and it can be irritating, especially when I feel like I've done everything right.  
 
-![Training wheels >](../img/coding-standards/training-wheels.jpg)
 
 However, I also recognize that ESLint is immensely useful. These "annoying little rules" act as training wheels, helping to shape our subconscious habits over time. Linters serve as a constant reminder of the importance of clean code and helps catch errors that I might overlook. Each time I fix an error, I learn more about coding standards and best practices. So, while the process can be painful and ESLint seems unforgiving at first, it is undeniably beneficial in the long run.
+
+<div style="text-align: start;">
+  <img width="70%" class="rounded" src="../img/coding-standards/training-wheels.jpg" alt="City Training Wheels">
+</div>
+
+<br>
 
 
 ## Being a Teamplayer
